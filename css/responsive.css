@@ -1,0 +1,29 @@
+@media (max-width: 540px) {
+  body {
+    width: 90%;
+  }
+  .top {
+    width: 100%;
+  }
+  .screen {
+    width: 100%;
+  }
+  .keys {
+    width: 100%;
+  }
+  table {
+    width: 100%;
+  }
+  td {
+    width: 0rem;
+  }
+  .keys table button {
+    margin: 5px;
+  }
+}
+
+@media (min-width: 541px) and (max-width: 992px) {
+  body {
+    width: 100%;
+  }
+}

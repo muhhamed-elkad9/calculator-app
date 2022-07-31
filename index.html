@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <title>Calculator App</title>
+</head>
+<body class="ThemeOne">
+  
+  <main>
+      <div class="top">
+        <p class="calc">calc</p>
+        <div class="box">
+          <p class="theme">theme</p>
+          <div class="column">
+            <div class="num">
+              <p>1</p>
+              <p>2</p>
+              <p>3</p>
+            </div>
+            <div class="slidecontainer">
+              <input type="range" min="1" max="100" value="1" step="49">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="screen">
+        <p class="text-sc">0</p>
+      </div>
+      <div class="keys">
+        <table>
+          <tr>
+            <td><button class="key">7</button></td>
+            <td><button class="key">8</button></td>
+            <td><button class="key">9</button></td>
+            <td><button class="blue del">DEL</button></td>
+          </tr>
+          <tr>
+            <td><button class="key">4</button></td>
+            <td><button class="key">5</button></td>
+            <td><button class="key">6</button></td>
+            <td><button class="key">+</button></td>
+          </tr>
+          <tr>
+            <td><button class="key">1</button></td>
+            <td><button class="key">2</button></td>
+            <td><button class="key">3</button></td>
+            <td><button class="key">-</button></td>
+          </tr>
+          <tr>
+            <td><button class="key">.</button></td>
+            <td><button class="key">0</button></td>
+            <td><button class="key">/</button></td>
+            <td><button class="key">*</button></td>
+          </tr>
+          <tr>
+            <td colspan="2"><button class="blue reset">RESET</td>
+            <td colspan="2"><button class="red">=</td>
+          </tr>
+        </table>
+      </div>
+  </main>
+
+
+  <script src="js/all.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
